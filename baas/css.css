@@ -337,8 +337,20 @@ q {
     text-decoration-line: overline;
     text-decoration-color: #ff36ed;
     font-family: "Times New Roman", Serif;
+    font-size:17px;
+    font-style:italic;
+    font-weight:bold;
+    font-variant:small-caps;
+    unicode-bidi:normal;
 }
-
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 2px;}
+}
 #only_span {
     -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
     -moz-columns: 100px 3; /* Firefox */
@@ -381,6 +393,7 @@ q {
     font-feature-settings: unset;
     font-kerning: initial;
     font-language-override: normal;
+
 }
 #lookin{
     opacity: 0;

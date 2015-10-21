@@ -132,8 +132,13 @@
         <embed src="car.swf">
     </div>
     <div id="inner2">
-
+<table>
+    <thead></thead>
+    <tbody></tbody>
+    <tfoot></tfoot>
+</table>
         <table>
+
             <caption>caption</caption>
             <colgroup>
                 <col span="2" style="background-color:greenyellow">
@@ -141,12 +146,13 @@
             </colgroup>
 
             <tr>
+
                 <th>Lorem ipsum dolor.</th>
                 <th>Lorem ipsum dolor.</th>
                 <th>Lorem ipsum dolor.</th>
             </tr>
             <tr>
-                <td>Lorem ipsum dolor.</td>
+                <td>Lorem <b>ipsum d</b>olor.</td>
                 <td>Lorem ipsum dolor.</td>
                 <td>Lorem ipsum dolor.</td>
             </tr>
